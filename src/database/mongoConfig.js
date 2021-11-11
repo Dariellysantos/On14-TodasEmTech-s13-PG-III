@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const MONGODB_URI =
-  "mongodb+srv://dbBloco:87160862@cluster0.swpfg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+  "mongodb+srv://dbBloco:passaword@host.swpfg.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 const connect = async () => {
   try {
